@@ -1,0 +1,12 @@
+.about{
+    max-width: 100%;
+    margin-top: 100px;
+    text-align:justify;
+    padding: 40px;
+    line-height: 1.5;
+    color: #7b7b7b;
+    background: #262525;
+    -webkit-box-shadow: -2px -2px 38px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 38px -3px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 38px -3px rgba(0,0,0,0.75);
+}

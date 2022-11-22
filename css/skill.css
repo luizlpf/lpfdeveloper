@@ -1,0 +1,102 @@
+.skills h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills h3 {
+  padding: 4px;
+  color: #282828;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+}
+.skill-all {
+  max-width: 100%;
+  background: #06a763;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 50px;
+}
+.skills {
+  max-width: 100%;
+  color: #282828;
+  font-family: "Raleway", sans-serif;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bar {
+  position: relative;
+  background-color: #7b7b7b;
+  border-radius: 20px;
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #282828;
+}
+.skills-list:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+  100% {
+    width: 90%;
+  }
+}
+
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill {
+  100% {
+    width: 75%;
+  }
+}
+
+#javascript-bar {
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 72%;
+  }
+}
+
+#jQuery-bar {
+  animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill {
+  100% {
+    width: 58%;
+  }
+}
+
+#node-bar {
+  animation: node-bar-fill 2s forwards;
+}
+@keyframes node-bar-fill {
+  100% {
+    width: 40%;
+  }
+}
+
+@media(max-width: 700px){
+  .skill-all{
+  max-width: 100%;
+  background: #06a763;
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+  padding: 50px;
+  }
+}
