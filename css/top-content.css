@@ -57,15 +57,13 @@ box-shadow: -2px -2px 38px -3px rgba(0,0,0,0.75);
     max-width: 100%;
 }
 
-@media(max-width: 920px){
-
-    
+@media(max-width: 920px){    
    .top-content{
 display: grid;
 grid-template-columns: 1fr;
     }
 .infos{
-  
+  text-align: center;
 justify-content:center;
 }
 .img-perfil{
