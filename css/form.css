@@ -80,9 +80,14 @@ float: right;
 
 /* LARGE SIZE */
 @media(max-width: 920px){
-.contact-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+   .contact-form form .input {
+        grid-column: 1 / 3;
+
+    }
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 }
 @media(max-width: 520px){
